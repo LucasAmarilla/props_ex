@@ -1,9 +1,11 @@
 import "./App.css";
 import Card from "./Components/Card";
+import Avatar from "./Components/Avatar";
 function App() {
   return (
     <div className="center">
       <h1>Meus contatos</h1>
+      <Avatar img="https://media.licdn.com/dms/image/C4E03AQE9rDHhmcUGdw/profile-displayphoto-shrink_800_800/0/1615550861864?e=2147483647&v=beta&t=A68VTXDdXs7T7PHM0MJ1OQSgYsUr-yHogaL6PlxcAoA"/>
       <Card
         name="Simpson Gamer"
         img="https://i.ytimg.com/vi/7QYyEAV1MnU/maxresdefault.jpg"
